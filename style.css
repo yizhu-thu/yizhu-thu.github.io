@@ -1,0 +1,41 @@
+/* style sheet for my homepage */
+
+body{
+	margin-right:15%;
+	margin-left:10%;
+	margin-top:4%;
+}
+
+p.nav{
+	font-family:'Times New Roman', Georgia, Arial, Helvetica;
+	font-size:"4";/*large;*/
+	/*font-variant: small-caps;*/
+	text-align:center;
+	/* background: #D6DAFF; */
+}
+
+a {
+	text-decoration: none;
+	/* color: #33f; */
+}
+
+a.author{
+	text-decoration: none;
+	/* color: #33f; */
+	color: #006633;
+}
+
+
+div.head{
+	/*background: #D6DAFF;*/
+	background: #0099FF;
+}
+
+div.block{
+	margin-top:30pt;
+	padding: 0pt 0pt 50pt 0pt
+}
+
+div.pad{
+	padding: 40pt 1pt
+}
