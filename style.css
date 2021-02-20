@@ -41,14 +41,8 @@ div.pad{
 }
 
 
-ol{
-	list-style-type: none;
-}
 
 li:before {
 content: “[”counter(sectioncounter)“]”;
 }
 
-li{
-counter-increment: sectioncounter;
-}
