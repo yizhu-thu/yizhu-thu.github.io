@@ -42,7 +42,7 @@ div.pad{
 
 
 
-/*ol li:before {
-content: “[” counter(myconter) “]”;
+li:before {
+content: “[” counter(mycounter) “]”;
 }
-*/
+
