@@ -40,13 +40,13 @@ div.pad{
 	padding: 40pt 1pt
 }
 
+
 ol{
 	list-style-type: none;
-	counter-reset: sectioncounter;
 }
 
-ol li:before {
-content: “[” counter(sectioncounter) “]”;
+li:before {
+content: “[”counter(sectioncounter)“]”;
 }
 
 li{
