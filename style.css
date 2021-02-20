@@ -39,3 +39,7 @@ div.block{
 div.pad{
 	padding: 40pt 1pt
 }
+ol li:before {
+content: “[” counter(sectioncounter) “]”;
+counter-increment: sectioncounter;
+}
