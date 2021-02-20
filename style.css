@@ -46,5 +46,5 @@ ol {list-style-type：none;}
 li:before {
 content: “[” counter(mycounter) “]”;
 }
-li {counter-increment：section;}
+li {counter-increment：mycounter;}
 
