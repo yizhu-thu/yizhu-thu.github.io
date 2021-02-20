@@ -42,7 +42,7 @@ div.pad{
 
 ol{
 	list-style-type: none;
-	counter-reset: sectioncounter;
+	counter: sectioncounter;
 }
 ol li:before {
 content: “[” counter(sectioncounter) “]”;
