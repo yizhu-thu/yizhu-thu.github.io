@@ -41,10 +41,14 @@ div.pad{
 }
 
 
-ol {list-style-type：none;} 
-
-li:before {
-content: “[” counter(mycounter) “]”;
+ol {
+    counter-reset: list;
 }
-li {counter-increment：mycounter;}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: “[" counter(list) "] ";
+    counter-increment: list;
+}
 
