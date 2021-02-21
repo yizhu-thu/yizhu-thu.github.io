@@ -41,7 +41,7 @@ div.pad{
 }
 
 
-/*ol {
+ol {
     counter-reset: list;
 }
 ol > li {
@@ -51,4 +51,4 @@ ol > li:before {
     content: “[" counter(list) "] ";
     counter-increment: list;
 }
-*/
+
