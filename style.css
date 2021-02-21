@@ -44,11 +44,14 @@ div.pad{
 ol {
     counter-reset: list;
 }
-ol > li {
-    list-style: none;
+ol li {
+    list-style-type: none;
+    position: relative;
 }
-ol > li:before {
-    content: “[" counter(list) "] ";
+ol li:before {
     counter-increment: list;
+    content: "[" counter(list, decimal) "] ";
+    position: absolute;
+    left: -25px;
 }
 
