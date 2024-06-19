@@ -49,7 +49,7 @@ ol li {
     position: relative;
 }
 ol li:before {
-    counter-increment: list;
+    counter-increment: list (-1);
     content: "[" counter(list, decimal) "].";
     position: absolute;
     left: -38px;
