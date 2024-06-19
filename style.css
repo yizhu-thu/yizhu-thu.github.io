@@ -42,7 +42,7 @@ div.pad{
 
 
 ol {
-    counter-reset: list (<length> | <number> | <identifier>);
+    counter-reset: list 47;
 }
 ol li {
     list-style-type: none;
