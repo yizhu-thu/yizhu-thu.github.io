@@ -50,7 +50,7 @@ ol li {
 }
 ol li:before {
     counter-increment: list;
-    content: "[" counter(list) "].";
+    content: "[" counter(list,decimal) "].";
     position: absolute;
     left: -38px;
 }
