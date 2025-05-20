@@ -58,7 +58,34 @@
 	</ol>
 </DIV>		
 
+<div style="text-align: center;">  
+	<h1 style="display: inline-block;">Weak Collocation Regression method:</h1><br>  
+    <h1 style="display: inline-block; margin-top: 0;">fast reveal hidden stochastic dynamics from high-dimensional aggregate data</h1>
+</div>
+<div style="margin-top: 20px; margin-left: 20px; margin-right: 20px;">  
+    <p>ref: <a href="https://www.sciencedirect.com/science/article/pii/S0021999124000482" target="_blank">JCP</a>  
+</div> 
+<div style="text-align: center; margin-top: 20px;">  
+    <img src="https://arxiv.org/html/2209.02628v3/x1.png" alt="The diagram of the weak collocation regression method" width="600" height="400">  
+</div>
+<div style="text-align: left; margin-top: 20px; margin-left: 20px; margin-right: 20px;">  
+    <p>Revealing hidden dynamics from the stochastic data is a challenging problem as the randomness takes part in the evolution of the data. The problem becomes exceedingly hard if the trajectories of the stochastic data are absent in many scenarios. In this work, we propose the Weak Collocation Regression (WCR) method to learn the dynamics from the stochastic data without the labels of trajectories. This method utilize the governing equation of the probability distribution function-the Fokker-Planck (FP) equation. Using its weak form and integration by parts, we move all the spacial derivatives of the distribution function to the test functions which can be computed explicitly. Since the data is a sampling of the corresponding distribution function, we can compute the integrations in the weak form, which has no spacial derivatives on the distribution functions, by simply adding the values of the integrands at the data points. We further assume the unknown drift and diffusion terms can be expanded by the base functions in a dictionary with the coefficients to be determined. Cooperating the collocation treatment and linear multi-step methods, we transfer the revealing process to a linear algebraic system. Using the sparse regression, we eventually obtain the unknown coefficients and hence the hidden stochastic dynamics. The numerical experiments show that our method is flexible and fast, which reveals the dynamics within seconds in the multi-dimensional problems and can be extended to high dimensional data. The complex tasks with variable-dependent diffusion and coupled drift can be correctly identified by WCR and the performance is robust, achieving high accuracy in the cases of noisy data. The rigorous error estimate is also included to support our various numerical experiments.</p>  
+</div>
 
+<hr>
+
+<div style="text-align: center;">  
+    <h1>Temporal difference learning for high-dimensional PIDEs with jumps</h1>  
+</div>
+<div style="margin-top: 20px; margin-left: 20px; margin-right: 20px;">  
+    <p>ref: <a href="https://epubs.siam.org/doi/abs/10.1137/23M1584538" target="_blank">SISC</a>  
+</div> 
+<div style="text-align: center; margin-top: 20px;">  
+    <img src="https://arxiv.org/html/2307.02766v2/extracted/2307.02766v2/figure/diagram.png" alt="The diagram of the weak collocation regression method" width="600" height="400">  
+</div>
+<div style="text-align: left; margin-top: 20px; margin-left: 20px; margin-right: 20px;">  
+    <p>In this paper, we propose a deep learning framework for solving high-dimensional partial integro-differential equations (PIDEs) based on the temporal difference learning. We introduce a set of Levy processes and construct a corresponding reinforcement learning model. To simulate the entire process, we use deep neural networks to represent the solutions and non-local terms of the equations. Subsequently, we train the networks using the temporal difference error, termination condition, and properties of the non-local terms as the loss function. The relative error of the method reaches O(10^{-3}) in 100-dimensional experiments and O(10^{-4}) in one-dimensional pure jump problems. Additionally, our method demonstrates the advantages of low computational cost and robustness, making it well-suited for addressing problems with different forms and intensities of jumps.</p>  
+</div>
 
 </BODY>
 </HTML>
